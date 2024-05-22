@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "unconventionaltools:block/unconventional_block"
+    }
+  }
+}

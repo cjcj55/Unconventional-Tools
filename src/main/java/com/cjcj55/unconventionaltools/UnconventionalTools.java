@@ -1,5 +1,9 @@
 package com.cjcj55.unconventionaltools;
 
+import com.cjcj55.unconventionaltools.common.creativetabs.ModCreativeTabs;
+import com.cjcj55.unconventionaltools.core.init.ModBlocks;
+import com.cjcj55.unconventionaltools.core.init.ModItems;
+import com.cjcj55.unconventionaltools.core.init.ModLootModifiers;
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -16,13 +20,18 @@ import org.slf4j.Logger;
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(UnconventionalTools.MOD_ID)
 public class UnconventionalTools {
-    // Define mod id in a common place for everything to reference
     public static final String MOD_ID = "unconventionaltools";
-    // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
     public UnconventionalTools() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModCreativeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

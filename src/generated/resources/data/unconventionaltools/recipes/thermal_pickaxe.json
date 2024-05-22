@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "A": {
+      "item": "minecraft:coal_block"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "pattern": [
+    "ACA",
+    " B ",
+    " B "
+  ],
+  "result": {
+    "item": "unconventionaltools:thermal_pickaxe"
+  },
+  "show_notification": true
+}

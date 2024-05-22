@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 100,
+  "experience": 0.5,
+  "group": "unconventional",
+  "ingredient": {
+    "item": "unconventionaltools:deepslate_unconventional_ore"
+  },
+  "result": "unconventionaltools:unconventional_ingot"
+}

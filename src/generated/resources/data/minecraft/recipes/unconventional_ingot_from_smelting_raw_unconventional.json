@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "cookingtime": 200,
+  "experience": 0.5,
+  "group": "unconventional",
+  "ingredient": {
+    "item": "unconventionaltools:raw_unconventional"
+  },
+  "result": "unconventionaltools:unconventional_ingot"
+}

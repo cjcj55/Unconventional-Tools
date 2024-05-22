@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "A": {
+      "item": "minecraft:glass"
+    },
+    "B": {
+      "item": "minecraft:stick"
+    },
+    "C": {
+      "type": "forge:nbt",
+      "count": 1,
+      "item": "minecraft:potion",
+      "nbt": "{Potion:\"minecraft:invisibility\"}"
+    }
+  },
+  "pattern": [
+    " A ",
+    "CAC",
+    " B "
+  ],
+  "result": {
+    "item": "unconventionaltools:invisible_sword"
+  },
+  "show_notification": true
+}

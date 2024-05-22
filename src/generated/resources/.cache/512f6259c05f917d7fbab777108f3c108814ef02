@@ -1,0 +1,5 @@
+// 1.20.1	2024-05-12T16:02:45.9517703	Global Loot Modifiers : unconventionaltools
+c2475e01e9bd74f44a31e63f5157f51ec911b997 data/forge/loot_modifiers/global_loot_modifiers.json
+6a455f2cb327a0cbc59686b82b65fb453a44c3fd data/unconventionaltools/loot_modifiers/smelt_all_blocks_with_thermal_pickaxe.json
+30a10aa7b76f1330ae3299a9c978dc7d99b4e8cb data/unconventionaltools/loot_modifiers/unconventional_ingot_from_grass.json
+6bf6244d0d07b29dbb465277d2b871a40e31455a data/unconventionaltools/loot_modifiers/unconventional_ingot_from_jungle_temple.json
